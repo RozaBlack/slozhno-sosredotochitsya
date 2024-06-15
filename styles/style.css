@@ -8,9 +8,10 @@
   font-style: var(--font-style);
   background-color: var(--background-color);
   background-image: var(--background-image);
-  background-attachment: fixed;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
+  background-attachment: fixed;
 }
 
 /* шапка сайта */
@@ -215,7 +216,6 @@
 
   /*  зависимость промежутка от высоты окна: gap = 20vh - 93.6px (граничные условия для вычисления: 40, 668; 60, 768 */
   padding: clamp(40px, calc(20vh - 93.6px), 60px) var(--global-padding);
-  background-color: var(--background-color);
 }
 
 /* элементы списка */
@@ -388,5 +388,4 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--background-color);
 }
