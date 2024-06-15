@@ -2,3 +2,51 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
+:root {
+  /* вся страница */
+  --background-color: #000028;
+  --background-image: url(../images/cover-image-dark.png);
+  --font-family: 'IBM Plex Mono', sans-serif;
+  --font-style: normal;
+  --font-size: 18px;
+  --line-height: 1.3em;
+  --normal_font-weight: 400;
+  --bold_font-weight: 700;
+  --global-padding: clamp(10px, 2.6vi, 20px);
+
+  /* меню */
+  --menu_items_color: #ff0070;
+  --menu_items_background-color: transparent;
+  --menu_items_border-color: 255, 0, 112;
+
+  /* надпись "focus" */
+  --focus_color: #db00ff;
+  --focus_background-color: inherit;
+  --focus_font-size_phone: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+  --focus_font-size_laptop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+  --focus_line-height: 82.5%;
+  --focus_text-shadow: 4px 4px 0 #ff0070;
+
+  /* аннотация (abstract) */
+  /* подзаголовки внути разделов */
+  --abstract-subtitle_color: #000028;
+  --abstract-subtitle_background-color: #ff0070;
+
+  /* заголовки разделов */
+  --section_titles_color: #ff0070;
+  --section_titles_background-color: inherit;
+
+  /* заголовки списка внутри раздела */
+  --list_elements_titles_color: #000028;
+  --list_elements_titles_background-color: #ff0070;
+
+  /* основное содержание */
+  --main_text_color: #f1b2ce;
+  --main_text_background-color: inherit;
+
+  /* ссылки */
+  --text_links_color: inherit;
+  --text_links_background-color: inherit;
+  --text_links_text-shadow: 1px 1px 0 #ff0070;
+}
