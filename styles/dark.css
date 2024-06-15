@@ -4,7 +4,7 @@
   переключая тему
 */
 
-.page.theme-dark {
+.page.theme_dark {
   --background-color: #000028;
   --background-image: url(../images/cover-image-dark.png);
 
@@ -21,19 +21,16 @@
 
   /* аннотация (abstract) */
   /* подзаголовки внути разделов */
-  --abstract-subtitle_color: #000028;
-  --abstract-subtitle_background-color: #FF0070;
+  /* заголовки списка внутри раздела */
+  --abstract-subtitle-advice_color: #000028;
+  --abstract-subtitle-advice_background-color: #FF0070;
 
   /* заголовки разделов */
   --section_titles_color: #FF0070;
- 
-  /* заголовки списка внутри раздела */
-  --list_elements_titles_color: #000028;
-  --list_elements_titles_background-color: #FF0070;
  
   /* основное содержание */
   --main_text_color: #F1B2CE;
 
   /* ссылки */
-  --text_links_text-shadow: 1px 1px 0 #FF0070;
+  --text_links_text-shadow: 1px 1px 0 #FF0070;  
 }
